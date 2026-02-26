@@ -9,6 +9,8 @@ namespace Library_Referencing
         {
             clsMath Math = new clsMath();
             Console.WriteLine(Math.Sum(10, 20));
+            Console.WriteLine(Math.Sum(10, 20, 60));
+
             Console.ReadKey();
 
         }
